@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header__content {
+    padding: 15px 0px;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #3b5bdb;
+}
+
+.header__input--search {
+    width: 40%;    
+}
+
+.main__container {
+    align-items: center;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__container {
+    background-color: #fff;
+    width: 60%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px; 
+}
+
+.form__title, .title2, h2 {
+    font-size: 20px;
+}
+
+.input__box {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #ebebeb;
+}
+
+.form__input--text {
+    width: 58%;
+}
+
+.form__input--priority {
+    color: #696767;
+    width: 35%;
+}
+
+.form__input-container{
+    display: flex;
+    justify-content:space-between
+}
+
+.form__button--add-task{
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #3b5bdb;
+    color: #fff;
+    font-weight: 400;
+}
+
+.tasks__container {
+    background-color: #fff;
+    width: 60%;
+    margin-bottom: 25px;
+    padding: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 250px;
+    gap: 15px;
+}
+
+.tasks__list {
+    margin-top: 20px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.task__item {
+    background-color: #f1f3f5;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task-info__container{
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.span-urgent {
+    display: block;
+    background-color: #e40404;
+    min-width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.span-important {
+    display: block;
+    background-color: #f3a703;
+    min-width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.span-normal {
+    display: block;
+    background-color: #028302;
+    min-width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.task__button--remove-task{
+    background-image: url("./assets/trash-icon.svg");
+    background-size: 13px;
+    background-repeat: no-repeat;
+    padding: 7px;
+    border: none;
+}
